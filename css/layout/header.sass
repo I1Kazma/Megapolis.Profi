@@ -1,0 +1,67 @@
+.header
+    padding: 18px 0px
+    position: fixed
+    width: 100%
+
+    .header__top
+        display: flex
+        justify-content: center
+
+        .width-wrapper
+            width: 100%
+
+            .header__wrapper
+                max-width: 684px
+                display: flex
+                justify-content: space-between
+                gap: 30px
+                align-items: center
+                margin-left: 45px
+
+                @include desktop-small
+                    max-width: 491px
+
+                @include mobile-big
+                    max-width: 324px
+
+                img
+                    width: 100%
+                    @include desktop-small
+                        max-width: 108px
+                    @include mobile-big
+                        max-width: 70px
+                    @include mobile
+                        max-width: 108px
+
+                .header__nav
+
+                    ul
+                        display: flex
+                        gap: 40px
+
+                        @include desktop-small
+                            gap: 20px
+
+                        @include mobile-big
+                            gap: 8px
+
+                        li
+                            a
+                                color: $white
+                                font-size: 16px
+                                font-weight: 400
+                                line-height: 19px
+                                letter-spacing: 0%
+
+                                @include desktop-small
+                                    font-size: 14px
+                                    line-height: 16px
+
+                                @include mobile-big
+                                    font-size: 10px
+                                    line-height: 12px
+
+                                &:hover
+                                    color: $yellow
+
+    .header__bottom

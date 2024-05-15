@@ -1,0 +1,15 @@
+.solution {
+  display: flex;
+  justify-content: center;
+}
+.solution .solution__wrapper .solution__heading h2 {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0%;
+}
+.solution .solution__wrapper .solution__heading span {
+  font-weight: 300;
+  font-size: 24pxpx;
+  letter-spacing: 0%;
+  Align: Align left;
+}/*# sourceMappingURL=solution.css.map */

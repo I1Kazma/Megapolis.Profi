@@ -1,0 +1,13 @@
+.variants {
+  display: flex;
+  justify-content: center;
+}
+.variants .variants__wrapper .variants__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(245px, auto));
+}
+.variants .variants__wrapper .variants__items .variants__item {
+  background: #232323;
+  border-radius: 5px;
+  padding: 20px 36px;
+}/*# sourceMappingURL=variants.css.map */

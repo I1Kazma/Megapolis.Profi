@@ -1,0 +1,6 @@
+.products-small .products-small__wrapper .products-small__items .products-small__item {
+  position: relative;
+}
+.products-small .products-small__wrapper .products-small__items .products-small__item:hover .dark-bg {
+  opacity: 0.6;
+}/*# sourceMappingURL=poducts-small.css.map */

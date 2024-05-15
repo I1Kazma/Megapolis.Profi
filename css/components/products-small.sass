@@ -1,0 +1,82 @@
+.products-small
+    padding-top: 100px
+
+    @include desktop-small
+        padding-top: 64px
+
+    @include tablet
+        padding-top: 33px
+
+    @include mobile-big
+        padding-top: 49px
+
+    @include mobile
+        padding-top: 36px
+
+    .products-small__wrapper
+
+        .products-small__items
+            display: grid
+            grid-template-columns: repeat(auto-fit, minmax(200px, auto))
+            gap: 12px
+
+            @include desktop-small
+                grid-template-columns: repeat(2, minmax(150px, auto))
+                gap: 18px
+
+            @include mobile-big
+                grid-template-columns: repeat(1, minmax(150px, auto))
+
+            .products-small__item
+                position: relative
+                background-position: center !important
+                background-repeat: no-repeat !important
+                background-size: cover !important
+                height: 340px
+                border-radius: 5px
+
+                @include desktop-small
+                    height: 250px
+
+                @include mobile-big
+                    height: 163px
+
+                &:first-child
+                    background: url(../img/plitka.png)
+
+                &:nth-child(2)
+                    background: url(../img/block.png)
+
+                &:nth-child(3)
+                    background: url(../img/window.png)
+
+                &:last-child
+                    background: url(../img/circle.png)
+
+                &:hover .dark-bg
+                    opacity: 0.5
+
+                .products-small__item__link
+                    position: absolute
+                    left: 40px
+                    right: 40px
+                    bottom: 40px
+                    z-index: 2
+
+                    display: flex
+                    justify-content: space-between
+                    align-items: center
+
+                    @include tablet
+                        left: 20px
+                        right: 20px
+                        bottom: 20px
+
+                    h3
+                        color: $white
+                        font-family: Roboto
+                        font-size: 22px
+                        font-weight: 700
+                        line-height: 100%
+                        letter-spacing: 0%
+                        text-align: left

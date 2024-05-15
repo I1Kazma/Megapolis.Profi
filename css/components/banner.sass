@@ -1,0 +1,142 @@
+.banner
+    position: relative
+    background: url(../img/banner.png) center no-repeat
+    height: 823px
+    display: flex
+    flex-direction: column
+    justify-content: end
+    align-items: center
+
+    @include desktop-small
+        background: url(../img/banner-desktop.png) center no-repeat
+        height: 460px
+        background-size: cover
+
+    .banner__wrapper
+        position: absolute
+        top: 45%
+        left: 0
+        right: 0
+        margin: 0px 20px
+        display: flex
+        justify-content: center
+        align-items: center
+        width: 100%
+
+        @include desktop-small
+            width: auto
+
+        @include mobile-big
+            bottom: 38px
+            top: auto
+
+        .banner__text
+            display: flex
+            justify-content: space-between
+            gap: 20px
+            max-width: 972px
+            width: 100%
+
+            @include desktop-small
+                max-width: 621px
+                justify-content: center
+
+            @include tablet
+                max-width: 601px
+
+            @include mobile-big
+                flex-direction: column
+                gap: 15px
+
+            *
+                color: $white
+
+            h1
+                font-size: 36px
+                font-weight: 300
+                line-height: 36px
+                max-width: 340px
+
+                @include desktop-small
+                    font-size: 24px
+                    font-weight: 300
+                    line-height: 26px
+                    max-width: 240px
+
+                @include mobile-big
+                    font-size: 20px
+                    max-width: 340px
+
+                @include mobile
+                    font-size: 16px
+                    max-width: 308px
+
+                b
+                    font-size: 45px
+                    font-weight: 900
+                    line-height: 38.11px
+
+                    @include desktop-small
+                        font-weight: 700
+                        font-size: 32px
+
+                    @include mobile-big
+                        font-size: 40px
+                        letter-spacing: 0%
+
+                    @include mobile
+                        font-size: 36px
+
+            span
+                font-size: 22px
+                font-weight: 300
+                line-height: 22px
+                max-width: 391px
+
+                @include desktop-small
+                    font-size: 20px
+
+                @include mobile-big
+                    font-size: 20px
+                    max-width: 100%
+
+                @include mobile
+                    font-size: 16px
+
+    .banner__annotation
+        max-width: 1330px
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 29px
+        max-height: 112px
+        background: #232323
+        gap: 30px
+        margin-bottom: -56px
+
+        @include desktop-small
+            padding: 16.5px
+            max-width: 892px
+            margin-bottom: -34px
+
+        @include tablet
+            padding: 14.5px
+            max-width: 668px
+            margin-bottom: -32px
+
+        @include mobile-big
+            display: none
+
+        span
+            font-size: 30px
+            line-height: 35px
+            letter-spacing: 0%
+            color: $white
+
+            @include desktop-small
+                font-size: 20px
+
+        img
+            @include desktop-small
+                max-width: 35px

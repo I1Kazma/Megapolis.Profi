@@ -1,0 +1,14 @@
+<svg width="50.000000" height="50.000000" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip13_1407">
+			<rect id="account_balance_wallet" width="50.000000" height="50.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip13_1407)">
+		<path id="Vector" d="M43.75 15.16L43.75 10.41C43.75 8.12 41.87 6.25 39.58 6.25L10.41 6.25C8.1 6.25 6.25 8.12 6.25 10.41L6.25 39.58C6.25 41.87 8.1 43.75 10.41 43.75L39.58 43.75C41.87 43.75 43.75 41.87 43.75 39.58L43.75 34.83C44.97 34.1 45.83 32.79 45.83 31.25L45.83 18.75C45.83 17.2 44.97 15.89 43.75 15.16ZM41.66 18.75L41.66 31.25L27.08 31.25L27.08 18.75L41.66 18.75ZM10.41 39.58L10.41 10.41L39.58 10.41L39.58 14.58L27.08 14.58C24.79 14.58 22.91 16.45 22.91 18.75L22.91 31.25C22.91 33.54 24.79 35.41 27.08 35.41L39.58 35.41L39.58 39.58L10.41 39.58Z" fill="#FCFDFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M36.45 25C36.45 26.72 35.05 28.12 33.33 28.12C31.6 28.12 30.2 26.72 30.2 25C30.2 23.27 31.6 21.87 33.33 21.87C35.05 21.87 36.45 23.27 36.45 25Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

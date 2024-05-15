@@ -1,0 +1,9 @@
+.header .header__top .width-wrapper {
+  max-width: 684px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.header .header__top .width-wrapper .header__top__nav ul {
+  display: flex;
+}/*# sourceMappingURL=header.css.map */

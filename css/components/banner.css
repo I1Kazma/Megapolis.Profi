@@ -1,0 +1,13 @@
+.banner {
+  position: relative;
+}
+.banner .width-wrapper .banner__text {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  position: absolute;
+  top: 45%;
+}
+.banner .width-wrapper .banner__text * {
+  color: white;
+}/*# sourceMappingURL=banner.css.map */
