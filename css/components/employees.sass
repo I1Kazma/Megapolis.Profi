@@ -1,17 +1,17 @@
 .employees
-    padding-top: 102px
+    padding: 102px 0px
 
     @include desktop-small
-        padding-top: 44px
+        padding: 44px 0px
 
     @include tablet
-        padding-top: 69px
+        padding: 69px 0px
 
     @include mobile-big
-        padding-top: 59px
+        padding: 59px 0px
 
     @include mobile
-        padding-top: 47px
+        padding: 47px 0px
 
     .employees__wrapper
         display: flex
@@ -45,6 +45,18 @@
                 flex-direction: column
                 align-items: flex-start
                 gap: 37px
+
+                &:first-child
+                    transition-delay: 0.2s
+
+                &:nth-child(2)
+                    transition-delay: 0.4s
+
+                &:nth-child(3)
+                    transition-delay: 0.6s
+
+                &:last-child
+                    transition-delay: 0.8s
 
                 @include tablet
                     flex-direction: row

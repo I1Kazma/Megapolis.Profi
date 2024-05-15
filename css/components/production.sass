@@ -1,10 +1,10 @@
-.solution
+.production
 
     .width-wrapper
         width: 100%
         max-width: 1239px
 
-    .solution__wrapper
+    .production__wrapper
         display: grid
         justify-content: space-between
         grid-template-columns: repeat(3, minmax(100px, auto))
@@ -26,7 +26,7 @@
         @include mobile
             padding-top: 40px
 
-        .solution__heading
+        .production__heading
             max-width: 335px
             display: flex
             flex-direction: column
@@ -60,26 +60,11 @@
                 @include mobile
                     font-size: 26px
 
-            span
-                font-weight: 300
-                font-size: 24px
-                color: $grey
-
-                @include desktop-small
-                    max-width: 223px
-                    font-size: 20px
-
-                @include mobile-big
-                    max-width: 100%
-
-                @include mobile
-                    font-size: 16px
-
         span
             max-width: 340px
-            color: $white
+            color: $grey
+            font-size: 22px
             font-weight: 300
-            font-size: 20px
 
             @include desktop-small
                 font-size: 16px
@@ -92,10 +77,8 @@
                 grid-area: auto !important
 
             &:nth-child(2)
-                transition-delay: 0.5s
                 @include tablet
                     grid-area: 1 / 2 / 1 / 2
             &:nth-child(3)
-                transition-delay: 0.7s
                 @include tablet
                     grid-area: 2 / 2 / 2 / 2
