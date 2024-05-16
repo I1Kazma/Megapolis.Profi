@@ -196,18 +196,24 @@ a {
 }
 .banner {
   position: relative;
-  background: url(../img/banner.png) center no-repeat;
+  background: url(../img/banner.png);
   height: 823px;
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media (max-width: 992px) {
   .banner {
-    background: url(../img/banner-desktop.png) center no-repeat;
+    background: url(../img/banner-desktop.png);
     height: 460px;
     background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 .banner .banner__wrapper {

@@ -1,16 +1,24 @@
 .banner
     position: relative
-    background: url(../img/banner.png) center no-repeat
+    background: url(../img/banner.png)
     height: 823px
     display: flex
     flex-direction: column
     justify-content: end
     align-items: center
 
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+
     @include desktop-small
-        background: url(../img/banner-desktop.png) center no-repeat
+        background: url(../img/banner-desktop.png)
         height: 460px
         background-size: cover
+
+        background-size: cover
+        background-position: center
+        background-repeat: no-repeat
 
     .banner__wrapper
         position: absolute
