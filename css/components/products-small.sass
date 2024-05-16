@@ -37,15 +37,19 @@
 
                 &:first-child
                     transition-delay: 0.2s
+                    background: url(../img/plitka.png)
 
                 &:nth-child(2)
                     transition-delay: 0.4s
+                    background: url(../img/block.png)
 
                 &:nth-child(3)
                     transition-delay: 0.6s
+                    background: url(../img/window.png)
 
                 &:last-child
                     transition-delay: 0.8s
+                    background: url(../img/circle.png)
 
                 @include desktop-small
                     height: 250px
@@ -53,20 +57,12 @@
                 @include mobile-big
                     height: 163px
 
-                &:first-child
-                    background: url(../img/plitka.png)
+                &:hover
+                    .dark-bg
+                        opacity: 0.5
 
-                &:nth-child(2)
-                    background: url(../img/block.png)
-
-                &:nth-child(3)
-                    background: url(../img/window.png)
-
-                &:last-child
-                    background: url(../img/circle.png)
-
-                &:hover .dark-bg
-                    opacity: 0.5
+                    h3
+                        color: $yellow !important
 
                 .products-small__item__link
                     position: absolute
