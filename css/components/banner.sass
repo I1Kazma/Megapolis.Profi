@@ -117,31 +117,37 @@
 
             .defis
                 transition-delay: 0.6s
+
     .banner__annotation
-        max-width: 1330px
-        width: 100%
         display: flex
+        width: 100%
         justify-content: center
-        align-items: center
-        padding: 29px
-        max-height: 112px
-        background: #232323
-        gap: 30px
-        margin-bottom: -56px
-        transition-delay: 1s
 
-        @include desktop-small
-            padding: 16.5px
-            max-width: 892px
-            margin-bottom: -34px
+        .banner__annotation__wrapper
+            max-width: 1330px
+            width: 100%
+            display: flex
+            justify-content: center
+            align-items: center
+            padding: 29px
+            max-height: 112px
+            background: #232323
+            gap: 30px
+            margin: 0px 20px -56px 20px
+            transition-delay: 1s
 
-        @include tablet
-            padding: 14.5px
-            max-width: 668px
-            margin-bottom: -32px
+            @include desktop-small
+                padding: 16.5px
+                max-width: 892px
+                margin-bottom: -34px
 
-        @include mobile-big
-            display: none
+            @include tablet
+                padding: 14.5px
+                max-width: 668px
+                margin-bottom: -32px
+
+            @include mobile-big
+                display: none
 
         span
             font-size: 30px

@@ -341,6 +341,11 @@ a {
   transition-delay: 0.6s;
 }
 .banner .banner__annotation {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.banner .banner__annotation .banner__annotation__wrapper {
   max-width: 1330px;
   width: 100%;
   display: flex;
@@ -350,25 +355,25 @@ a {
   max-height: 112px;
   background: #232323;
   gap: 30px;
-  margin-bottom: -56px;
+  margin: 0px 20px -56px 20px;
   transition-delay: 1s;
 }
 @media (max-width: 992px) {
-  .banner .banner__annotation {
+  .banner .banner__annotation .banner__annotation__wrapper {
     padding: 16.5px;
     max-width: 892px;
     margin-bottom: -34px;
   }
 }
 @media (max-width: 768px) {
-  .banner .banner__annotation {
+  .banner .banner__annotation .banner__annotation__wrapper {
     padding: 14.5px;
     max-width: 668px;
     margin-bottom: -32px;
   }
 }
 @media (max-width: 576px) {
-  .banner .banner__annotation {
+  .banner .banner__annotation .banner__annotation__wrapper {
     display: none;
   }
 }
